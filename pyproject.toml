@@ -1,0 +1,11 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "resolution_week2_Waffl"
+version = "1.0.2"
+dependencies = []
+
+[project.scripts]
+ContactList = "resolution_week2_Waffl.main:main"
